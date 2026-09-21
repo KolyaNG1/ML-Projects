@@ -1,8 +1,33 @@
 {
-  "observations": 70000,
-  "test_observations": 14000,
-  "threshold": 0.45,
-  "roc_auc": 0.8006,
-  "recall": 0.7417,
-  "precision": 0.7256
+  "raw_observations": 70000,
+  "clean_observations": 68598,
+  "removed_observations": 1402,
+  "train_observations": 41158,
+  "validation_observations": 13720,
+  "test_observations": 13720,
+  "target_recall": 0.8,
+  "selected_threshold": 0.38000000000000017,
+  "best_cv_roc_auc": 0.8014061146298467,
+  "best_params": {
+    "random_strength": 0.5,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 9,
+    "iterations": 300,
+    "depth": 7,
+    "bagging_temperature": 0.5
+  },
+  "test": {
+    "threshold": 0.38000000000000017,
+    "roc_auc": 0.8013534903929102,
+    "pr_auc": 0.7849377143857906,
+    "recall": 0.8056865055981143,
+    "precision": 0.6803084960816022,
+    "f1": 0.7377082349767317,
+    "accuracy": 0.7165451895043732,
+    "brier_score": 0.1805811323002371,
+    "tn": 4362,
+    "fp": 2570,
+    "fn": 1319,
+    "tp": 5469
+  }
 }

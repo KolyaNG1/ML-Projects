@@ -1,0 +1,8 @@
+{
+  "observations": 70000,
+  "test_observations": 14000,
+  "threshold": 0.45,
+  "roc_auc": 0.8006,
+  "recall": 0.7417,
+  "precision": 0.7256
+}
